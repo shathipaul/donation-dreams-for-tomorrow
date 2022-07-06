@@ -119,7 +119,32 @@ hr {
     background-image: linear-gradient(#1363DF, #47B5FF) 
     
 }
- 
+.about-us-mother{
+    display: flex;
+    width: 100%;
+    box-shadow: 10px 10px 40px white;
+    padding: 10px 20px;
+    margin: 0
+    justify-content: center;
+
+}
+.about-us{
+    text-align: center;
+}
+.about-us h1 {
+    
+    background-color: #47B5FF;
+    color: #001D6E;
+}
+.about-us p{
+   
+    background-color: #CAF0F8;
+    padding: 5gpx;
+    
+}
+.about-us img{
+    width: 80%;
+}
 .contact-us{
     background: #CAF0F8;
     width: 40%;
