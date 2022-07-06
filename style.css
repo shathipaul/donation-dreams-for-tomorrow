@@ -1,55 +1,163 @@
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;  
+}
+*{
+    padding: 0;
+    margin: 0;
 }
 .top-sec{
-    background-image: url(d4t-donation.png);
+    background-image: url(background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
     height: 100vh;
+    width: 100%;  
+    text-align: center;
+    background-position: center;
+}
 
+.h1-deco{
+    color: #1363DF;
+}
+
+.top-sec h1{
+    font-size: 40px;
+    color: white;
+    padding-top: 200px;
+
+}
+.top-sec p{
+    color: white;
+}
+.section-style h1{
+    font-size: 50px;
+    color: #1363DF;
 }
 
 .section-style{
     text-align: center;
-    padding-top: 200px;
+    padding-top: 100px;
     color: black;
-    
+    width: 100%;
 }
-.h1-class{
-    font-size: 40px;
-    color: white;
+.section-style img{
+    width: 50%;
+    border-radius: 5px;
+}
+.box-for-donation{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
 }
 
+.donation-box{
+    box-shadow: 10px 10px 20px white;
+    width: 50%;
+    margin: 20px 30px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    background-color: beige;
+    font-weight: 700;
+    justify-content: center;
+    
+}
+
+#unique{
+    border: 1px;
+    border: solid;
+    background-color: #CAF0F8;
+    border-color: #001D6E;
+    color: #001D6E;
+    
+}
+
+hr {
+    width: 50%; 
+    margin: auto; 
+}
+
+.box{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+    
+    
+}
+.icone{
+    box-shadow: 10px 10px 40px white;
+    border-radius: 5px;
+    margin: 20px;
+    width: 50%;
+    padding: 15px;
+    justify-content: center;
+    
+}
+.icone1color{
+    background-color: #FEECE9;
+}
+.icone2color{
+    background-color: #D5D5D5;
+}
+.icone3color{
+    background-color: #F0E5CF;
+}
+#input-style{
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+    
+}
 .donation-button{
-    color: blue;
+    color: #001D6E;
     text-decoration: none;
     font-weight: 700;
-    background-color: greenyellow;
-    padding: 10px 30px;
+    padding: 10px 20px;
     border-radius: 5px;
-    background-image: linear-gradient(greenyellow, yellow)
-}
-.about-us{
-    width: 50%;
-    padding: 20px;
-    
+    background-image: linear-gradient(#1363DF, #47B5FF) 
     
 }
-.habijabi{
+ 
+.contact-us{
+    background: #CAF0F8;
+    width: 40%;
+    margin-left: 350px;
+    margin-bottom: 100px;
+    padding: 70px;  
+    margin-top: 40px;
     display: flex;
+    justify-content: center;
+    
 }
-
+.contact-us input {
+    font-size: 15px;
+    border: none;
+    padding: 10px 15px;
+    outline: none;
+    border-radius left: 5px;
+}
+.contact-us button {
+    color: #001D6E;
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    background:orange;
+}
 footer{
     background-color: black;
     text-align: center;
     color: white;
-    height: 60px;
-    padding-top: 20px;
+    height: 100px;
+    padding-top: 40px;
+    
 }
 .footer-font{
-    font-style: italic;
     font-weight: 700;
-    color: aqua;
-}
+    color: #1363DF;
+    font-style: italic;
     
+}
+
+  
